@@ -1,17 +1,16 @@
 # Alexander Sazanov
 ## Junior front-end developer
-=====
 
 ## Contacts:
 
 * **Email:** alsazanov@gmail.com
 * **Telegram:** @alexpeachy
 
-=========
 
 ## About me
 
   I started learning programming languages a half year ago. Firstly, I started with HTML and CSS basics, then I finished a couple courses on stepic.org. After this, I chose to learn Ruby and its framework "on Rails". At the end of May 2022, I found these course and so here I am ;)
+  
 --------------
 
 ## Skills
