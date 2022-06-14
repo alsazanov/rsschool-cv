@@ -15,7 +15,7 @@
         display: flex;
         justify-content: flex-start;
         flex-direction: row;
-        margin-right: 3px;
+        margin-right: 10px;
         background: rgb(174, 207, 209);
         border-radius: 0 0 5px 5px;
     }
@@ -27,6 +27,15 @@
     pre {
         font-weight: 500;
         font-size: 14px;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 20px 0 10px 0;
+        padding-top: 5px;
+        background-color: rgba(179, 168, 168, 0.5);
     }
 }
 
@@ -57,19 +66,27 @@
 
     pre {
         font-weight: 500;
-        font-size: 12px;
+        font-size: 10px;
     }
 
+    footer {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        margin: 20px 0 10px 0;
+        background-color: rgba(179, 168, 168, 0.5);
+    }
 }
 
 body {
     font-family: "Roboto", "Arial", sans-serif;
     font-weight: 600;
     font-size: 14px;
-    margin: 0 10% 5% 10%;
+    margin: 0 10% 0 10%;
 }
 
-img {
+header img {
     width: 150px;
     float: left;
     margin-bottom: 22px;
@@ -82,6 +99,10 @@ nav {
     justify-content: center;
     margin: 0 0 30px 0;
     padding: 0;
+}
+
+nav a {
+    margin: 3px 7px;
 }
 
 a {
@@ -105,6 +126,10 @@ p {
     text-indent: 30px;
 }
 
-nav a {
-    margin: 3px 7px;
+img.rss {
+    width: 120px;
+}
+
+img.github {
+    width: 70px;
 }
